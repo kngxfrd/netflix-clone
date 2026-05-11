@@ -1,9 +1,12 @@
 import { FaPlay } from "react-icons/fa";
 import { IoIosInformationCircleOutline } from "react-icons/io";
-
+import bannerImg from "../assets/bannerimg.png";
 function Banner() {
   return (
-    <div className="bg-[url('src/assets/bannerimg.png')] bg-cover h-150 pt-12 mt-10">
+    <div
+      style={{ backgroundImage: `url(${bannerImg})` }}
+      className="bg-cover h-150 pt-12 mt-10"
+    >
       <div className="w-100 flex mt-50 pl-6 flex-col ">
         <div className="text-center">
           <h1 className="text-[80px] font-bold">YANIMA</h1>
