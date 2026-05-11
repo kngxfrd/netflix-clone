@@ -3,6 +3,7 @@ import { IoIosInformationCircleOutline } from "react-icons/io";
 
 function Banner() {
   return (
+    //img src={} alt=""/
     <div className="bg-[url('src/assets/bannerimg.png')] bg-cover bg-center relative w-full h-150 pt-12 mt-16">
       <div className="w-100 flex mt-50 pl-6 flex-col ">
         <div className="text-center">
