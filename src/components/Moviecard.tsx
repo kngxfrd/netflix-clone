@@ -8,7 +8,7 @@ interface Movie {
   imdbId: string;
 }
 interface MoviecardProps {
-  category: string; // ✅ add a prop
+  category: string;
 }
 function Moviecard({ category }: MoviecardProps) {
   const [image, setImage] = useState<Movie[]>([]);

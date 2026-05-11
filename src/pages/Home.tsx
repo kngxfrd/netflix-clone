@@ -18,25 +18,25 @@ function Home() {
       <div className="pl-6 text-left">
         <p>Comedy</p>
       </div>
-      <div className="pl-6 flex flex-row gap-1 overflow-x-auto [&::-webkit-scrollbar]:hidden">
+      <div className="pl-6 flex flex-row gap-1 overflow-x-auto [&::-webkit-scrollbar]:hidden pt-2">
         <Moviecard category="comedy" />
       </div>
-      <div className="pl-6 text-left ">
+      <div className="pl-6 text-left pt-4 ">
         <p>Horror</p>
       </div>
-      <div className="pl-6 flex flex-row gap-1 overflow-x-auto [&::-webkit-scrollbar]:hidden">
+      <div className="pl-6 flex flex-row gap-1 overflow-x-auto [&::-webkit-scrollbar]:hidden pt-2">
         <Moviecard category="horror" />
       </div>
-      <div className="pl-6 text-left ">
+      <div className="pl-6 text-left pt-4">
         <p>Action</p>
       </div>
-      <div className="pl-6 flex flex-row gap-1 overflow-x-auto [&::-webkit-scrollbar]:hidden">
+      <div className="pl-6 flex flex-row gap-1 overflow-x-auto [&::-webkit-scrollbar]:hidden pt-2">
         <Moviecard category="drama" />
       </div>
-      <div className="pl-6 text-left ">
+      <div className="pl-6 text-left pt-4 ">
         <p>Drama</p>
       </div>
-      <div className="pl-6 flex flex-row gap-1 overflow-x-auto [&::-webkit-scrollbar]:hidden">
+      <div className="pl-6 flex flex-row gap-1 overflow-x-auto [&::-webkit-scrollbar]:hidden pt-2">
         <Moviecard category="comedy" />
       </div>
       <div className="text-[#808080] flex justify-left items-center pl-6 pt-10 ml-20">
