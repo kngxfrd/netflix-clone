@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div>
+    <div className="text-white bg-[#141414]">
       <Navbar />
       <Home />
     </div>

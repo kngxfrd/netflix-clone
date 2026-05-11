@@ -6,7 +6,7 @@ import netflixLogo from "../assets/netflixlogo.png";
 import profileImg from "../assets/profileimg.png";
 function Navbar() {
   return (
-    <div className="fixed w-full top-0 left-0 right-0 h-20 bg-[#141414] flex flex-row">
+    <div className="fixed w-full relative top-0 left-0 right-0 h-20 bg-[#141414] flex flex-row">
       <div className="flex items-cente">
         <img
           src={netflixLogo}

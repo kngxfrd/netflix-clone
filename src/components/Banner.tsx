@@ -5,9 +5,9 @@ function Banner() {
   return (
     <div
       style={{ backgroundImage: `url(${bannerImg})` }}
-      className="bg-cover h-150 pt-12 mt-10"
+      className="bg-cover h-150 "
     >
-      <div className="w-100 flex mt-50 pl-6 flex-col ">
+      <div className="w-100 flex pl-6 pt-60 flex-col ">
         <div className="text-center">
           <h1 className="text-[80px] font-bold">YANIMA</h1>
           <h1 className="text-[50px] font-semibold -mt-12">KAL</h1>
