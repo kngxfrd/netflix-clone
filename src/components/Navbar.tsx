@@ -4,7 +4,7 @@ import { FaBell } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
 function Navbar() {
   return (
-    <div className="fixed w-full top-0 left-0 right-0 h-20 bg-black flex flex-row">
+    <div className="fixed w-full top-0 left-0 right-0 h-20 bg-[#141414] flex flex-row">
       <div>
         <img
           src="src/assets/Netflix-Logo-Streaming-Platform-PNG-removebg-preview.png"
@@ -12,16 +12,26 @@ function Navbar() {
           className="pl-6 w-50 h-22 pb-1"
         />
       </div>
-      <div>
-        <button></button>
-        <button></button>
-        <button></button>
+      <div className="flex items-center text-[12px] gap-3 ml-5">
+        <button>Homepage</button>
+        <button>Series</button>
+        <button>Movies</button>
+        <button className="flex gap-1 ">
+          <p>New</p> <p>and</p> <p>Popular</p>
+        </button>
       </div>
-      <div className="flex items-center gap-4">
-        <IoMdSearch size={24} />
-        <AiOutlineGift size={24} />
-        <FaBell size={24} />
-        <IoMdArrowDropdown size={24} />
+      <div className="flex items-center ml-auto mr-6">
+        <div className="flex items-center gap-3 ">
+          <button className="flex itmes-center gap-1">
+            <IoMdSearch size={20} />
+            search
+          </button>
+
+          <AiOutlineGift size={20} />
+          <FaBell size={20} />
+          <img src="src/assets/profileimg.png" alt="" className="size-7" />
+          <IoMdArrowDropdown size={20} />
+        </div>
       </div>
     </div>
   );
