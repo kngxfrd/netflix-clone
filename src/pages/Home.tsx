@@ -1,5 +1,4 @@
 import Banner from "../components/Banner";
-import Navbar from "../components/Navbar";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
