@@ -8,10 +8,7 @@ import Moviecard from "../components/Moviecard";
 
 function Home() {
   return (
-    <div className="text-white bg-[#141414] w-screen h-screen overflow-x-hidden pb-32">
-      <div>
-        <Navbar />
-      </div>
+    <div className="text-white bg-[#141414] w-screen h-screen overflow-x-hidden md:pb-32">
       <div>
         <Banner />
       </div>

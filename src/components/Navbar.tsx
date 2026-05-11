@@ -5,14 +5,14 @@ import { IoMdArrowDropdown } from "react-icons/io";
 function Navbar() {
   return (
     <div className="fixed w-full top-0 left-0 right-0 h-20 bg-[#141414] flex flex-row">
-      <div>
+      <div className="flex items-cente">
         <img
           src="src/assets/Netflix-Logo-Streaming-Platform-PNG-removebg-preview.png"
           alt=""
-          className="pl-6 w-50 h-22 pb-1"
+          className="w-24 md:w-32 h-auto object-contain"
         />
       </div>
-      <div className="flex items-center text-[12px] gap-3 ml-5">
+      <div className="flex items-center text-[12px] gap-3 ml-5 ">
         <button>Homepage</button>
         <button>Series</button>
         <button>Movies</button>
