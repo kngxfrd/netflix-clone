@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import Navbar from "../components/Navbar";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -8,6 +9,9 @@ import Moviecard from "../components/Moviecard";
 function Home() {
   return (
     <div className="text-white bg-[#141414] w-screen h-screen overflow-x-hidden md:pb-32">
+      <div>
+        <Navbar />
+      </div>
       <div>
         <Banner />
       </div>

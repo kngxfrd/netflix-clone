@@ -2,12 +2,14 @@ import { IoMdSearch } from "react-icons/io";
 import { AiOutlineGift } from "react-icons/ai";
 import { FaBell } from "react-icons/fa";
 import { IoMdArrowDropdown } from "react-icons/io";
+import netflixLogo from "../assets/netflixlogo.png";
+import profileImg from "../assets/profileimg.png";
 function Navbar() {
   return (
     <div className="fixed w-full top-0 left-0 right-0 h-20 bg-[#141414] flex flex-row">
       <div className="flex items-cente">
         <img
-          src="src/assets/Netflix-Logo-Streaming-Platform-PNG-removebg-preview.png"
+          src={netflixLogo}
           alt=""
           className="w-24 md:w-32 h-auto object-contain"
         />
@@ -29,7 +31,7 @@ function Navbar() {
 
           <AiOutlineGift size={20} />
           <FaBell size={20} />
-          <img src="src/assets/profileimg.png" alt="" className="size-7" />
+          <img src={profileImg} alt="" className="size-7" />
           <IoMdArrowDropdown size={20} />
         </div>
       </div>
